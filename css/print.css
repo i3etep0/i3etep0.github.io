@@ -1,0 +1,26 @@
+@media print {
+	h1, div#header, div#sidebar, div#footer, .controls, aside,title { 
+		display: none; 
+	}
+
+	* {
+		font-size: 2px;
+	}
+	html, body {
+		background-image: none;
+	}
+
+	g {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: #FFF;
+
+		}
+	   @page {
+        margin: 1cm;
+    }
+
+}

@@ -1,0 +1,125 @@
+@media all and (orientation:landscape) {
+ /* стили для пейзажа */
+ #container{
+ 	1background-color: red;
+ 	margin: 0px auto;
+ 	width: 80vw;
+ 	height: 100vh;
+    max-width: 1200px;
+ }
+ .svg-element{
+	1background-color: yellow;
+	height: 100%;
+    width: 70%;
+    float: left;
+ }
+ .controlsDiv   {
+    height: 100%;
+    width: 10%;
+    display: inline-block;
+    float: left;
+}
+.controls {
+    height: 35%;
+    margin: 1% 0;
+    outline: 2px solid green;
+}
+.controls__element{
+    height: 25%;
+}
+.instruments {
+    height: 40%;
+    outline: 2px solid blue;
+    margin: 1% 0;
+}
+.instruments__element{
+    height: 25%;
+    1border: 1px solid red;
+}
+.instruments__element:after{
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: chartreuse;
+    position: absolute;
+    display: none;
+}
+.instruments__element__pencil {
+    1height: 100%;
+    background: url(../img/pencil.png) 50% 50% no-repeat ;
+    background-size:     contain;                      
+}
+.instruments__element__marker {
+    background: url(../img/marker.png) 50% 50% no-repeat;
+    background-size:     contain;                      /* <------ */
+
+    
+}
+.instruments__element__brush{
+      background: url(../img/brush.png) 50% 50% no-repeat;
+    background-size:     contain;                      /* <------ */
+
+}
+.instruments__element__eraser{
+    background: url(../img/eraser.png) 50% 50% no-repeat;
+    background-size:     contain;  
+    
+}
+.odinprocent{
+    height: 1%;
+}
+.sizes {
+    height: 21%;
+    outline: 2px solid magenta;
+}
+.sizes__element{
+    height: 33%;
+    text-align: center;
+}
+.sizes__element__large{
+   background: url(../img/size-large.png) 50% 50% no-repeat;
+    background-size:     contain;    
+
+}
+.sizes__element__medium{
+    background: url(../img/size-medium.png) 50% 50% no-repeat;
+    background-size:     contain;  
+
+}
+.sizes__element__small{
+   background: url(../img/size-small.png) 50% 50% no-repeat;
+    background-size:     contain;  
+}
+.controls__element__save{
+background: url(../img/save.png) 50% 50% no-repeat;
+    background-size: contain;
+
+}
+
+.controls__element__clear{
+background: url(../img/x.png) 50% 50% no-repeat;
+    background-size: contain;
+
+}
+  #color_panel{
+    1background-color: blue;
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    float: left;
+ }
+ 1.more{
+    1width: 34.4em;
+}
+.sizes{
+
+}
+1#mainImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+}
